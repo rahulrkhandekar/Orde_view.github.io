@@ -1,0 +1,12 @@
+.container .card{
+    width: 320px;
+}
+.container .card .hero img{
+    width: 320px;
+}
+.container .card .summary .plan {
+    margin: 0 14px;
+}
+.button button {
+    padding: 12px 80px;
+}

@@ -1,0 +1,101 @@
+:root {
+    --Very_pale: hsl(225, 100%, 98%);
+    --Desaturated_blue: hsl(224, 23%, 55%);
+    --Dark_blue: hsl(223, 47%, 23%);
+    --Pale_blue: hsl(225, 100%, 94%);
+    --Bright_blue: hsl(245, 75%, 52%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: url(./images/pattern-background-desktop.svg) no-repeat; 
+    background-size: 100vw 50vh; 
+    background-color: var(--Pale_blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container .card {
+    background-color: var(--Very_pale);
+    height: 600px;
+    width: 450px;
+    text-align: center;
+    border-radius: 14px;
+}
+
+.container .card .hero img {
+    border-radius: 14px 14px 0 0;
+}
+
+.container .card .summary .header {
+    padding: 20px 62px;
+}
+
+.container .card .summary .header h1 {
+    font-size: 22px;
+}
+
+.container .card .summary .header p {
+    padding-top: 10px;
+    color: var(--Desaturated_blue);
+}
+
+.container .card .summary .plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(224.5, 100%, 93.9%, 0.34);
+    margin: 0 70px;
+    border-radius: 8px;
+    padding: 4px 0;
+}
+
+.container .card .summary .plan .logo {
+    padding: 0px 20px 0 0;
+    margin-left: -22px;
+    margin-top: 4px;
+}
+
+.container .card .summary .plan .text {
+    padding-right: 60px;
+}
+
+.container .card .summary .plan .text h2 {
+    font-size: 13px;
+    padding-bottom: 2px;
+}
+
+.container .card .summary .plan .text p {
+    font-size: 13px;
+    color: var(--Desaturated_blue);
+}
+
+.container .card .summary .plan .change {
+    font-size: 14px;
+}
+
+.button {
+    margin: 36px 0;
+}
+
+.button button {
+    padding: 12px 88px;
+    background-color: var(--Bright_blue);
+    color: var(--Very_pale);
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0px 7px 20px 5px rgba(56, 41, 224, 0.3);
+}
+
+.cancel p {
+    color: var(--Desaturated_blue);
+}
